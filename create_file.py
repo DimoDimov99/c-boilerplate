@@ -12,8 +12,7 @@ def create_file(creation_times: int=1, in_separete_directory=False) -> None:
     """
     function to create .c boilerplate file/s
     creation_times -> how many files to be created. default = 1
-    in_separate_directory -> should the files to be created in new directory inside the currrent directory. default = False
-
+    in_separate_directory -> should the file/s to be created in new directory inside the currrent directory. default = False
     """
     if in_separete_directory:
         user_input_directory = input("Enter the name of directory: ")
